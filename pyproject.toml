@@ -1,0 +1,11 @@
+[project]
+name = "english-basic-verbs"
+version = "0.1.0"
+description = "CLI program for learning beginner English verbs."
+requires-python = ">=3.11"
+
+[project.scripts]
+english-basic-verbs = "english_basic_verbs.cli:main"
+
+[tool.unittest]
+start-dir = "tests"
