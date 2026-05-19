@@ -45,7 +45,7 @@ def create_default_repository() -> InMemoryVerbRepository:
     return InMemoryVerbRepository(
         [
             BasicVerb("be", "was/were", "been", ("이다", "있다"), "I am a student."),
-            BasicVerb("have", "had", "had", ("가지다", "먹다"), "We have breakfast."),
+            BasicVerb("have", "had", "had", ("가지다",), "We have breakfast."),
             BasicVerb("do", "did", "done", ("하다",), "Do your homework."),
             BasicVerb("say", "said", "said", ("말하다",), "She said hello."),
             BasicVerb("go", "went", "gone", ("가다",), "They go to school."),
